@@ -4,7 +4,7 @@
   "key": "shatner.pics",
   "links": {
     "homepage": "http://shatner.pics",
-    "self": "http://shatner.pics"
+    "self": "https://raw.githubusercontent.com/alphadevx/shatner-bot/master/package.json"
   },
   "capabilities": {
     "webhook": [
