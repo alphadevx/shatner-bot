@@ -11,7 +11,7 @@
       {
         "event": "room_message",
         "pattern": "^/shatner (\\w*?)$",
-        "reply":"http://shatner.pics/mood/{{$1}}.jpg",
+        "url":"http://shatner.pics/mood/{{$1}}.jpg",
         "name": "Shatner",
         "authentication": "no"
       }
