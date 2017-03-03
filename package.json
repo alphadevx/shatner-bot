@@ -1,6 +1,6 @@
 {
   "name": "Shatner",
-  "description": "Renders an awseome picture of William Shatner matching the mood provided",
+  "description": "Renders an awseome pic of William Shatner matching the mood provided",
   "key": "shatner.pics",
   "links": {
     "homepage": "http://shatner.pics",
