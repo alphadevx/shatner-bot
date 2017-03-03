@@ -15,6 +15,11 @@
         "name": "Shatner",
         "authentication": "none"
       }
-    ]
+    ],
+    "hipchatApiConsumer": {
+      "scopes": [
+        "send_notification"
+      ]
+    }
   }
 }
