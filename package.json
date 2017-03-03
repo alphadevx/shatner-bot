@@ -10,8 +10,8 @@
     "webhook": [
       {
         "event": "room_message",
-        "pattern": "^/shatner ([A-z]+)$",
-        "url":"http://shatner.pics/mood/{{$1}}.jpg",
+        "pattern": "^/shatner",
+        "url":"http://shatner.pics/mood",
         "name": "Shatner",
         "authentication": "none"
       }
