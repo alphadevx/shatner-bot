@@ -1,1 +1,20 @@
-{"name":"Shatner","event":"room_message","pattern":"^/shatner (\\w*?)$","reply":"http://shatner.pics/mood/{{$1}}.jpg","replyHtml":false,"notify":false,"enable":true}
+{
+  "name": "Shatner",
+  "description": "Renders an awseome picture of William Shatner matching the mood provided",
+  "key": "shatner.pics",
+  "links": {
+    "homepage": "http://shatner.pics",
+    "self": "http://shatner.pics"
+  },
+  "capabilities": {
+    "webhook": [
+      {
+        "event": "room_message",
+        "pattern": "^/shatner (\\w*?)$",
+        "reply":"http://shatner.pics/mood/{{$1}}.jpg",
+        "name": "Shatner",
+        "authentication": "no"
+      }
+    ]
+  }
+}
