@@ -12,8 +12,7 @@
         "event": "room_message",
         "pattern": "^/shatner (\\w*?)$",
         "url":"http://shatner.pics/mood/{{$1}}.jpg",
-        "name": "Shatner",
-        "authentication": "no"
+        "name": "Shatner"
       }
     ]
   }
