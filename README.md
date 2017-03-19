@@ -11,3 +11,13 @@ In Hipchat, the user gains access to the _/shatner_ command in a room that has t
 ![](http://shatner.pics/mood/awesome.jpg)
 
 The idea is that users of the Hipchat room can use "Shatners" to express their present mood, just for fun :-)
+
+## How do I install it on Hipchat?
+
+Firstly you need to have admin rights on the room.  Then carry out the following steps:
+
+# From the room menu, choose "Add integrations".
+# On the next screen, choose "Install an integration from a descriptor URL".
+# For "Descriptor URL" enter: _https://raw.githubusercontent.com/alphadevx/shatner-bot/master/package.json_, then click "Install".
+# Confirm the room to install Shatner to, and choose "Approve".
+# You should now test the _/shatner_ command in the room you have installed it to.
