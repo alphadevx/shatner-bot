@@ -16,8 +16,8 @@ The idea is that users of the Hipchat room can use "Shatners" to express their p
 
 Firstly you need to have admin rights on the room.  Then carry out the following steps:
 
-# From the room menu, choose "Add integrations".
-# On the next screen, choose "Install an integration from a descriptor URL".
-# For "Descriptor URL" enter: _https://raw.githubusercontent.com/alphadevx/shatner-bot/master/package.json_, then click "Install".
-# Confirm the room to install Shatner to, and choose "Approve".
-# You should now test the _/shatner_ command in the room you have installed it to.
+1. From the room menu, choose "Add integrations".
+2. On the next screen, choose "Install an integration from a descriptor URL".
+3. For "Descriptor URL" enter: _https://raw.githubusercontent.com/alphadevx/shatner-bot/master/package.json_, then click "Install".
+4. Confirm the room to install Shatner to, and choose "Approve".
+5. You should now test the _/shatner_ command in the room you have installed it to.
