@@ -6,7 +6,7 @@ The _package.json_ file within this repo can be used as a descriptor in [Hipchat
 
 ## How does it work?
 
-In Hipchat, the user gains access to the _/shatner_ command in a room that has this plugin enabled, for example if the user types _/shatner awesome_ the following image is loaded into th Hipchat room:
+In Hipchat, the user gains access to the _/shatner_ command in a room that has this plugin enabled, for example if the user types _/shatner awesome_ the following image is loaded into the Hipchat room:
 
 ![](http://shatner.pics/mood/awesome.jpg)
 
