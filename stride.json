@@ -16,7 +16,7 @@
     "chat:bot:messages": [
       {
         "key": "shatner-bot-message",
-        "pattern": ".*/shatner.*",
+        "pattern": "^/shatner",
         "url": "/mood"
       }
     ]
