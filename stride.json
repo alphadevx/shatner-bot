@@ -1,10 +1,6 @@
 {
   "baseUrl": "http://shatner.pics",
   "key": "shatner.pics",
-  "lifecycle": {
-    "installed": "/installed",
-    "uninstalled": "/uninstalled"
-  },
   "modules": {
     "chat:bot": [
       {
