@@ -1,0 +1,28 @@
+{
+  "baseUrl": "http://shatner.pics",
+  "key": "shatner.pics",
+  "lifecycle": {
+    "installed": "/installed",
+    "uninstalled": "/uninstalled"
+  },
+  "modules": {
+    "chat:bot": [
+      {
+        "key": "shatner-bot",
+        "mention": {
+          "url": "/mood"
+        },
+        "directMessage": {
+          "url": "/mood"
+        }
+      }
+    ],
+    "chat:bot:messages": [
+      {
+        "key": "shatner-bot-message",
+        "pattern": ".*/shatner.*",
+        "url": "/mood"
+      }
+    ]
+  }
+}
